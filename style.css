@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    font-family: 'Inter';
+    font-style: normal; 
+    font-weight: 600;
+}
+
+#area1{
+    background-color: #303030;
+    padding: 206px 62px;
+    color: white;
+}
+
+#titulo1{
+    font-size: 60px;
+    font-style: bolder;
+    line-height: 72px;
+}
+
+#paragrafo1{
+    margin: 20px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#area2{
+    height: 229px;
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    padding: 96px 171px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+span.numeroArea2{
+    font-size: 60px;
+}
+
+#area3{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+#textoArea3{
+    margin: 304px 77px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+#tituloArea3{
+    font-size: 54px;
+    line-height: 20px;
+}
+
+#modeloCasa{
+    margin: 62px 64px 92px;
+    border-radius: 30px;
+}
+
+#area4{
+    text-align: center;
+    background-color: #303030;
+    color: #FFFFFF;
+    padding-top: 80px;
+}
+
+#textoArea4{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+input{
+    height: 53px;
+    width: 413px;
+    border-radius: 8px;
+    display: grid;
+    margin: 40px 40%;
+    border: 0px;
+    background-color: #EAECE5;
+    padding: 10px;
+    font-size: 16px;
+    
+}
+
+button{
+    align-self: center;
+    background-color: #C07212;
+    height: 53px;
+    width: 335px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: 0px;
+    font-size: 16px;
+    cursor: pointer;
+}
