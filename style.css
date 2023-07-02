@@ -1,8 +1,7 @@
 *{
     margin: 0px;
-    font-family: 'Inter';
-    font-style: normal; 
-    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
 }
 
 #area1{
@@ -12,33 +11,38 @@
 }
 
 #titulo1{
+    position: absolute;
+    left: 62px;
+    top: 206px;
+    font-weight: 600;
     font-size: 60px;
-    font-style: bolder;
     line-height: 72px;
 }
 
 #paragrafo1{
-    margin: 20px;
+    position: absolute;
+    left: 62px;
+    top: 298px;
+    font-weight: 500;
     font-size: 20px;
     line-height: 28px;
 }
 
 #area2{
-    height: 229px;
+   
     background-color: #f9f9f9;
     display: grid;
     grid-auto-flow: column;
-    justify-content: space-evenly;
-    justify-items: center;
-    align-content: space-evenly;
-    align-items: center;
-    padding: 96px 171px;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 20px;
+    line-height:28px;
+    padding: 96px 171px;
+    padding-bottom: 45px;
 }
 
 span.numeroArea2{
-    font-size: 60px;
+    font-weight: 600;
+    font-size: 40px;
 }
 
 #area3{
@@ -47,18 +51,20 @@ span.numeroArea2{
     justify-content: space-evenly;
     justify-items: center;
     align-content: space-evenly;
-    align-items: center;
+    
 }
 
 #textoArea3{
     margin: 304px 77px;
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 40px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    
 }
 
 #tituloArea3{
-    font-size: 54px;
+    font-weight: 500;
+    font-size: 38px;
     line-height: 20px;
 }
 
@@ -72,23 +78,26 @@ span.numeroArea2{
     background-color: #303030;
     color: #FFFFFF;
     padding-top: 80px;
+    padding-bottom: 109px;
 }
 
 #textoArea4{
     font-weight: 700;
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 32px;
+    line-height: 48px;
     margin-bottom: 50px;
 }
 
 input{
-    height: 53px;
-    width: 413px;
-    border-radius: 8px;
     display: grid;
-    margin: 40px 40%;
-    border: 0px;
-    background-color: #EAECE5;
+    
+    width: 508px;
+    height: 72px;
+ 
+    border-radius: 10px;
+    
+    margin: 48px 490px;
+    background-color: #FFFFFF;
     padding: 10px;
     font-size: 16px;
     
@@ -99,11 +108,8 @@ button{
     background-color: #C07212;
     height: 53px;
     width: 335px;
-    left: 0px;
-    top: 0px;
     border-radius: 8px;
     color: #FFFFFF;
-    border: 0px;
     font-size: 16px;
     cursor: pointer;
 }
